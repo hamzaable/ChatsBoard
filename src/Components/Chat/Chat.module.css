@@ -1,0 +1,416 @@
+.chat {
+  background-color: white;
+  position: relative;
+  width: 700px;
+  height: 832px;
+  left: 960px;
+  top: -840px;
+}
+.userInfo {
+  position: absolute;
+  height: 111px;
+  width: 700px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.nameStatus {
+  display: inline-block;
+  position: absolute;
+  width: 270px;
+  height: 54px;
+  top: 40px;
+  left: 40px;
+}
+.profilePic {
+  position: absolute;
+  width: 54px;
+  height: 54px;
+  border-radius: 50%;
+}
+.userName {
+  display: inline-block;
+  position: absolute;
+  top: 10px;
+  left: 70px;
+  font-size: 18px;
+  line-height: 21px;
+  color: #0d1c2e;
+  font-weight: bold;
+}
+.userStatus {
+  display: inline-block;
+  position: absolute;
+  top: 30px;
+  left: 70px;
+  font-size: 16px;
+  line-height: 19px;
+  color: #2a8bf2;
+}
+.userFile {
+  position: absolute;
+  top: 50px;
+  right: 80px;
+  padding: 10px 18px;
+  border-radius: 50%;
+  background-color: white;
+  box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+.userMore {
+  display: inline-block;
+  position: absolute;
+  top: 50px;
+  right: 30px;
+  padding: 10px 18px;
+
+  border-radius: 50%;
+  background-color: white;
+  box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+
+.chatContainer {
+  width: 700px;
+  height: 100%;
+  position: ;
+  top: ;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.received1 {
+  position: absolute;
+  left: 40px;
+  top: 140px;
+  width: 80%;
+  height: 15%;
+}
+.profilePic1 {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+}
+.a1 {
+  position: absolute;
+  left: 40px;
+  top: 0px;
+  width: 80%;
+}
+.receivedMsg1 {
+  display: inline-block;
+
+  color: white;
+  background-color: #3592f3;
+  padding: 14px;
+  border-radius: 0px 10px 10px 10px;
+  margin-right: 25px;
+}
+.threeDots1 {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  letter-spacing: 2px;
+  top: 30%;
+  font-weight: bold;
+  color: #b4bccb;
+}
+
+.received2 {
+  position: absolute;
+  left: 40px;
+  top: 230px;
+  width: 80%;
+  height: 15%;
+}
+
+.a2 {
+  position: absolute;
+  left: 40px;
+  top: 0px;
+  width: 80%;
+}
+.receivedMsg2 {
+  display: inline-block;
+
+  color: white;
+  background-color: #3592f3;
+  padding: 14px;
+  border-radius: 0px 10px 10px 10px;
+  margin-right: 25px;
+}
+.threeDots2 {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  letter-spacing: 2px;
+  top: 30%;
+  font-weight: bold;
+  color: #b4bccb;
+}
+.time2 {
+  position: absolute;
+  top: 40%;
+  left: 40px;
+  font-size: 12px;
+  color: #90a1bb;
+  margin-top: 8px;
+}
+
+.sent3 {
+  position: absolute;
+  right: ;
+
+  top: 320px;
+  width: 90%;
+  height: 15%;
+}
+.profilePic3 {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+}
+.tick3 {
+  display: inline-block;
+  float: right;
+  font-weight: bold;
+  color: #3592f3;
+  margin-left: 10px;
+  margin-top: 15px;
+  letter-spacing: -3px;
+  font-size: 11px;
+}
+
+.sentMsg3 {
+  display: inline-block;
+  color: #707c97;
+  background-color: white;
+  padding: 14px;
+  border-radius: 0px 10px 10px 10px;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  float: right;
+  width: 50%;
+  margin-left: 25px;
+}
+.threeDots3 {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 2px;
+  float: right;
+  font-weight: bold;
+  color: #b4bccb;
+}
+
+.received4 {
+  position: absolute;
+  left: 40px;
+  top: 430px;
+  width: 80%;
+  height: 15%;
+}
+.profilePic4 {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+}
+.a4 {
+  position: absolute;
+  left: 40px;
+  top: 0px;
+  width: 80%;
+}
+.receivedMsg4 {
+  display: inline-block;
+
+  color: white;
+  background-color: #3592f3;
+  padding: 14px;
+  border-radius: 0px 10px 10px 10px;
+  margin-right: 25px;
+}
+.threeDots4 {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  letter-spacing: 2px;
+  top: 30%;
+  font-weight: bold;
+  color: #b4bccb;
+}
+.time4 {
+  position: absolute;
+  top: 40%;
+  left: 40px;
+  font-size: 12px;
+  color: #90a1bb;
+  margin-top: 8px;
+}
+.qwe {
+  position: absolute;
+  right: ;
+
+  top: 520px;
+  width: 100%;
+  height: 10%;
+}
+.sent4 {
+  width: 90%;
+  height: 100%;
+}
+.profilePic4 {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+}
+.tick4 {
+  display: inline-block;
+  float: right;
+  font-weight: bold;
+  color: #3592f3;
+  margin-left: 10px;
+  margin-top: 15px;
+  letter-spacing: -3px;
+  font-size: 11px;
+}
+
+.sentMsg4 {
+  display: inline-block;
+  color: #707c97;
+  background-color: white;
+  padding: 14px;
+  border-radius: 0px 10px 10px 10px;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  float: right;
+  width: ;
+  margin-left: 25px;
+}
+.threeDots5 {
+  height: 50%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 2px;
+  float: right;
+  font-weight: bold;
+  color: #b4bccb;
+}
+
+.messageBlock {
+  position: absolute;
+  bottom: 0;
+  width: 80%;
+  left: 40px;
+}
+.iconVideo {
+  display: ;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  padding-left: 9px;
+  padding-right: 8px;
+  padding-top: 9px;
+  padding-bottom: 6px;
+  background-color: #3592f3;
+  color: white;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+.iconVideo:hover {
+  background-color: #0865c9;
+}
+.iconPhoto {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  padding-left: 9px;
+  padding-right: 8px;
+  padding-top: 9px;
+  padding-bottom: 6px;
+  background-color: #3592f3;
+  color: white;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+.iconPhoto:hover {
+  background-color: #0865c9;
+}
+.iconFile {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  padding-left: 9px;
+  padding-right: 8px;
+  padding-top: 9px;
+  padding-bottom: 6px;
+  background-color: #3592f3;
+  color: white;
+  margin-bottom: ;
+  cursor: pointer;
+}
+.iconFile:hover {
+  background-color: #0865c9;
+}
+.addIcon {
+  display: inline-block;
+  width: ;
+  height: ;
+  border-radius: 50%;
+  padding-left: 9px;
+  padding-right: 10px;
+  padding-top: 7px;
+  padding-bottom: 5px;
+  background-color: #3592f3;
+  color: white;
+  cursor: pointer;
+}
+.addIcon:hover {
+  background-color: #0865c9;
+}
+.messageType {
+  display: inline-block;
+  width: 60%;
+  padding: 20px 10px 15px 10px;
+  border: 0px;
+  margin-left: 15px;
+  font-size: 20px;
+}
+.messageLine {
+  width: 100%;
+
+  height: 0.6px;
+  background-color: rgba(0, 0, 0, 0.1);
+  font-size: 30px;
+}
+.smileIcon {
+  display: inline-block;
+  float: right;
+  color: #909296;
+  font-size: 25px;
+  margin-top: 5px;
+  margin-right: 10px;
+}
+.sendIcon {
+  display: inline-block;
+
+  border-radius: 50%;
+  padding-left: 9px;
+  padding-right: 10px;
+  padding-top: 7px;
+  padding-bottom: 5px;
+
+  background-color: #3592f3;
+  color: white;
+  margin-top: 5px;
+  margin-left: 5px;
+  margin-top: px;
+  float: right;
+  cursor: pointer;
+}
+.singlemsg {
+  background-color: #2a8bf2;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}

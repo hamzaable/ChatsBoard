@@ -1,0 +1,203 @@
+.topMenu {
+  display: inline-block;
+  width: 290px;
+  height: 910px;
+  box-shadow: 23.8596px 5.61404px 50px rgba(0, 0, 0, 0.02),
+    35.0877px 0px 70px rgba(86, 128, 248, 0.05),
+    14.0351px 0px 25px rgba(86, 128, 248, 0.03);
+}
+.profilePic {
+  position: absolute;
+  width: 96px;
+  height: 96px;
+  left: 97px;
+  top: 87px;
+  width: 86px;
+  height: 86px;
+  border-radius: 50%;
+}
+.profileName {
+  position: absolute;
+  width: 130px;
+  height: 21px;
+  left: 80px;
+  top: 193px;
+  font-weight: bold;
+  font-family: TT Norms;
+  font-size: 18px;
+  line-height: 21px;
+  color: #0d1c2e;
+}
+.profileOptionbtn {
+  position: absolute;
+  left: 197px;
+  top: 195px;
+  cursor: pointer;
+  transform: rotate(90deg);
+}
+.homeOption {
+  position: absolute;
+
+  top: 280px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  width: 290px;
+  height: 40px;
+}
+.homeIcon {
+  position: absolute;
+  left: 60px;
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+.homeText {
+  position: absolute;
+  left: 95px;
+  top: 8px;
+  font-family: TT Norms;
+  font-size: 16px;
+  line-height: 19px;
+  color: #707c97;
+  cursor: pointer;
+}
+.chatOption {
+  position: absolute;
+
+  top: 330px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  width: 290px;
+  height: 40px;
+  border-left: 5px solid #2a8bf2;
+  border-radius: 4px;
+}
+.chatIcon {
+  position: absolute;
+  left: 60px;
+  width: 24px;
+  height: 24px;
+  color: #2a8bf2;
+  cursor: pointer;
+}
+.chatText {
+  position: absolute;
+  left: 95px;
+  top: 8px;
+  font-family: TT Norms;
+  font-size: 16px;
+  line-height: 19px;
+  color: #2a8bf2;
+  cursor: pointer;
+}
+.contactOption {
+  position: absolute;
+
+  top: 385px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  width: 290px;
+  height: 40px;
+}
+.contactIcon {
+  position: absolute;
+  left: 60px;
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+.contactText {
+  position: absolute;
+  left: 95px;
+  top: 8px;
+  font-family: TT Norms;
+  font-size: 16px;
+  line-height: 19px;
+  color: #707c97;
+  cursor: pointer;
+}
+.notificationsOption {
+  position: absolute;
+
+  top: 440px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  width: 290px;
+  height: 40px;
+}
+.notificationsIcon {
+  position: absolute;
+  left: 60px;
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+.notificationsText {
+  position: absolute;
+  left: 95px;
+  top: 8px;
+  font-family: TT Norms;
+  font-size: 16px;
+  line-height: 19px;
+  color: #707c97;
+  cursor: pointer;
+}
+.settingsOption {
+  position: absolute;
+
+  top: 500px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  width: 290px;
+  height: 40px;
+}
+.settingsIcon {
+  position: absolute;
+  left: 60px;
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+.settingsText {
+  position: absolute;
+  left: 95px;
+  top: 8px;
+  font-family: TT Norms;
+  font-size: 16px;
+  line-height: 19px;
+  color: #707c97;
+  cursor: pointer;
+}
+.logoutOption {
+  position: absolute;
+
+  top: 830px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  width: 290px;
+  height: 40px;
+}
+.logoutIcon {
+  position: absolute;
+  left: 60px;
+  width: 24px;
+  height: 24px;
+  transform: rotate(270deg);
+  cursor: pointer;
+}
+.logoutText {
+  position: absolute;
+  left: 95px;
+  top: 8px;
+  font-family: TT Norms;
+  font-size: 16px;
+  line-height: 19px;
+  color: #707c97;
+  cursor: pointer;
+}

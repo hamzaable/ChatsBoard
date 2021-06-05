@@ -1,0 +1,105 @@
+.allChats {
+  position: absolute;
+  width: 597px;
+  height: 818px;
+  left: 349px;
+  top: 90px;
+}
+.title {
+  position: absolute;
+  width: 581px;
+  height: 67px;
+}
+.button {
+  position: relative;
+  width: 240px;
+  height: 60px;
+  left: 100px;
+  top: 4px;
+  font-family: TT Norms;
+  font-size: 20px;
+  line-height: 24px;
+  color: #ffffff;
+  background: #66a5e9;
+  box-shadow: 2px 2px 10px rgba(42, 139, 242, 0.15),
+    2px 2px 10px rgba(42, 139, 242, 0.05), 2px 2px 10px rgba(42, 139, 242, 0.15);
+  border: 0px solid #66a5e9;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.button:hover {
+  background: #2482e6;
+}
+.filter {
+  display: inline-block;
+  width: 135px;
+  height: 26px;
+  position: relative;
+  top: 20px;
+  left: -100px;
+  font-family: TT Norms;
+  font-size: 18px;
+  line-height: 26px;
+  color: #707c97;
+}
+.chats {
+  width: 99px;
+  height: 26px;
+  display: inline-block;
+  font-family: TT Norms;
+  font-size: 36px;
+  color: #0d1c2e;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.search {
+  position: absolute;
+  width: 580px;
+  height: 70px;
+  top: 100px;
+  background-color: rgb(252, 252, 252);
+  border-radius: 6px;
+  box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.3);
+}
+.searchType {
+  display: inline-block;
+  position: relative;
+  left: 450px;
+  top: 20px;
+  cursor: pointer;
+}
+.searchFilter {
+  display: inline-block;
+  position: relative;
+  top: 20px;
+  left: -40px;
+}
+.searchInput {
+  position: relative;
+  top: -2px;
+  padding: 7px;
+  border: 0;
+  font-size: large;
+}
+.chatBlockContainer {
+  width: 580px;
+  height: 617px;
+  position: relative;
+  top: 200px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.chatBlockContainer::-webkit-scrollbar {
+  width: 6px;
+}
+
+.chatBlockContainer::-webkit-scrollbar-track {
+  background: white;
+}
+.chatBlockContainer::-webkit-scrollbar-thumb {
+  background-color: gray;
+  border-radius: 6px;
+  border: 3px solid gray;
+}

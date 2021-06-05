@@ -1,0 +1,95 @@
+.chatBlock {
+  width: 543px;
+  height: 220px;
+  margin-bottom: 20px;
+  margin-top: 15px;
+  margin-left: 15px;
+  background-color: rgb(252, 252, 252);
+  border-radius: 6px;
+  box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+.chatBlock:hover {
+  background-color: rgb(240, 233, 233);
+}
+.profilePic {
+  position: relative;
+  width: 54px;
+  height: 54px;
+  left: 40px;
+  top: 40px;
+  width: 54px;
+  height: 54px;
+  border-radius: 50%;
+}
+.userInfo {
+  display: inline-block;
+  position: relative;
+  width: 410px;
+  height: 46px;
+  top: 10px;
+  left: 50px;
+}
+.userName {
+  display: inline-block;
+  font-family: TT Norms;
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: bold;
+  color: #0d1c2e;
+}
+.userWrites {
+  display: block;
+  font-family: TT Norms;
+  font-size: 16px;
+  color: #2a8bf2;
+  position: absolute;
+  top: 17px;
+}
+.userOnlineStatus {
+  display: inline-block;
+  font-family: TT Norms;
+  font-size: 16px;
+  line-height: 19px;
+  float: right;
+  color: #707c97;
+}
+.onlineDot {
+  display: inline-block;
+  width: 7px;
+  height: 7px;
+  background-color: rgb(7, 241, 7);
+  color: red;
+  position: relative;
+  left: -12px;
+  border-radius: 50%;
+  border: 3px solid white;
+}
+.text {
+  width: 433px;
+  height: 78px;
+  position: relative;
+  left: 40px;
+  top: 20px;
+  color: #707c97;
+  font-family: TT Norms;
+  font-size: 16px;
+  line-height: 26px;
+  display: inline-block;
+}
+.unRead {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  padding: 5px 5px 5px 5px;
+  padding-left: 8px;
+  padding-bottom: 10px;
+  background-color: rgb(7, 241, 7);
+  font-size: 12px;
+  border-radius: 50%;
+  color: white;
+  position: relative;
+  left: 63px;
+  top: 30px;
+  font-weight: bold;
+}
